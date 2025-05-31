@@ -1,0 +1,6 @@
+# Ignore DB dumps, credentials, and environment files
+*.env
+*.sql
+__pycache__/
+*.db
+*.log
