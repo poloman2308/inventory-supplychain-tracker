@@ -1,6 +1,19 @@
-# Ignore DB dumps, credentials, and environment files
+# Ignore environment files
+.env
 *.env
-*.sql
-__pycache__/
-*.db
+
+# Ignore DB dumps or large output
+*.bak
+*.sql~          # temporary SQL edits
 *.log
+
+# Ignore Python cache (if using any scripting)
+__pycache__/
+*.pyc
+
+# Ignore Power BI auto-saves
+*.pbix~ 
+
+# Ignore OS or editor junk
+.DS_Store
+Thumbs.db
