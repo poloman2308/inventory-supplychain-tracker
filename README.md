@@ -154,7 +154,7 @@ CALCULATE(COUNTROWS(products), products[reorder_needed] = TRUE())
 
 ---
 
-👤 Author
+## 👤 Author
 Daniel Acevedo
 💼 Data Engineer | 🔗 [linkedin.com/in/dacevedo](https://www.linkedin.com/in/dacevedo)
 📧 dacevedo86@yahoo.com
